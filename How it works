@@ -1,0 +1,20 @@
+The project is a Smart Home that can detect when 
+a person enters and so turns on the lights and fans 
+for that person. 
+• Two IR sensors are used on the door that can emit 
+Infrared Rays to detect the presence of the person. 
+The sequence of detection allows them to 
+understand whether a person is entering or leaving 
+the house. If the sensor present outside detects 
+first and then the one present inside then the 
+person is entering the house and vice versa.
+• Once the person enters the house, it tells the 
+number of people based on the number of 
+detections. And also turns on the lights and fans 
+for that person. The DHT 22 sensor detects the 
+temperature and so tells whether there is need of 
+the fan or not. As the fan switches on if the 
+temperature detected is above the threshold value.
+• This data through cloud is sent to our smartphones 
+so we know when and how many people are 
+entering our house easily
